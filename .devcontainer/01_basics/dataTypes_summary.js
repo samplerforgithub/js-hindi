@@ -59,3 +59,26 @@ Arrays => object
 Function => function
 Object => object
 */
+//***************************MEMORY**************** */
+// stack(prmitive), heap(non-primitive)
+
+//stack(copy of reference)
+let myYoutubename = "himanshisinghdotcom"
+
+let anothername = myYoutubename
+anothername = "chaiaurcode"
+console.log(myYoutubename);
+console.log(anothername);
+
+//heap(original reference)
+let userone = {
+    email: "user@google.com",
+    upi:"user@ubl"
+}
+
+let usertwo = userone
+
+usertwo.email ="himanshi@gmail.com"
+console.log(userone.email);
+console.log(usertwo.email);
+
