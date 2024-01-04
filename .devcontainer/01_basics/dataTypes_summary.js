@@ -27,7 +27,6 @@ const bigNumber = 127534864545439568565768695876n
 console.log(typeof bigNumber);
 
 
-
 // Reference (Non primitive)
 // array, Objects, Functions
 
@@ -43,5 +42,20 @@ let myObj = {
 // function ko variable ke jaise bhi declare kr sakte hai
 const myFunction = function(){
     console.log("hello everyone");
-
 }
+/*Return type of variables in javascript
+1) primitive Datatypes
+Number=> number
+String => string
+Boolean => boolean
+null => object
+undefined => undefined
+Symbol => symbol
+Bigint => bigint
+
+
+2) Non-primitive Datatypes
+Arrays => object
+Function => function
+Object => object
+*/
