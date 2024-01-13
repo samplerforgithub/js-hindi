@@ -19,7 +19,6 @@
 //arrowfunction ko use krne keliye function keyword ka use nhi karenge
  ( () => {
     console.log('DB CONNECTED TWO');
-
  })();
 
  ( (name) => {
