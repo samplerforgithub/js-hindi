@@ -1,19 +1,19 @@
 //arrow function and THISkeyword
 //arrow function is also in work as object means in braces
 
-// const user ={        //obj me this keyword used hota hai
-//     username: "himanshi",
-//     price: 223,
+const user ={        //obj me this keyword used hota hai
+    username: "himanshi",
+    price: 223,
 
-//     welcomeMessage:function(){
+    welcomeMessage:function(){
     
-//         // console.log(`${this.username}, welcome to website`);
-//         // console.log(this);
-//     }
-// }
-// user.welcomeMessage()
-// user.usename="sam"
-// user.welcomeMessage()
+        // console.log(`${this.username}, welcome to website`);
+        // console.log(this);
+    }
+}
+user.welcomeMessage()
+user.usename="sam"
+user.welcomeMessage()
 // console.log(this);  //empty braces or undefined or inside the node to access
 
 
@@ -39,20 +39,20 @@ const chai = () => {
 chai()
 
 //add of two numbers 1 way
-// const addTwo = (num1,num2) => {
-//     return num1+num2
-// }
-// console.log(addTwo(3,4));
+const addTwo = (num1,num2) => {
+    return num1+num2
+}
+console.log(addTwo(3,4));
 
 //implicit function
 
 //2 way to write and use arrow function
 // const addTwo = (num1,num2) => num1+num2
-// console.log(addTwo(3,4));
+console.log(addTwo(3,4));
 
-//3 way to write and use arrow function
+// 3 way to write and use arrow function
 // const  addTwo = (num1,num2) => (num1+num2)
-// console.log(addTwo(3,4));
+console.log(addTwo(3,4));
 
-const addTwo = (num1,num2) => ({username:"himanshi"})
+// const addTwo = (num1,num2) => ({username:"himanshi"})
 // console.log(addTwo(username));
