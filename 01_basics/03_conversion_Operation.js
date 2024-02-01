@@ -1,3 +1,40 @@
+//4 types of operator
+
+let a=10
+console.log("a++ =",a++)
+console.log(a);
+console.log("++a =",++a);
+console.log(a);
+console.log("a-- =",a--);
+console.log(a);
+/* ARITHMETIC OPERATOR
++,-,*,**,/,%,++,--
+
+ASSIGNMENT OPERATOR
+=,+= x=x+y,-= x=x-y,*= x=x*y,/= x=x/y,%= x=x%y,**=   
+
+COMPARISON OPERATOR
+==,!=, ===, !==, >,<,>=,<=,?
+
+LOGICAL OPERATOR
+&&, ||*/
+
+a +=5 // same as x=x+5
+console.log(a);
+
+//assignment operator
+let comp=6
+let comp2=7
+console.log(comp===comp2);
+
+//comparison operator
+let x=5;
+let y=6;
+console.log(x<y && x==5)
+console.log(x>y || x==5)
+
+
+
 //let score = 33
 //let score = "33"
 //let score = "33ans"
