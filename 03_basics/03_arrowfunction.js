@@ -1,3 +1,31 @@
+//logic ko separate krne ke liye
+
+const hello=()=>{
+    console.log("Hey how are you.")
+    return"hi"}
+    
+    function oneplusavg(x,y){
+    return 1+(x+y)/2}
+    
+    const sum=(p,q)=>{   //arrow function
+    return p+q}
+    
+    let a=1;
+    let b=2;
+    let c=3;
+    let v=hello();
+    console.log(v);
+    
+    console.log("one plus avg of a abd b is":oneplusavg(a,b))
+    console.log("one plus avg of b abd c is":oneplusavg(b,c))
+    console.log("one plus avg of a abd c is":oneplusavg(a,c))
+    console.log(sum(6,7));
+    
+    
+    
+
+
+
 //arrow function and THISkeyword
 //arrow function is also in work as object means in braces
 
